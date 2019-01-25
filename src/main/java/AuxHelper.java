@@ -41,6 +41,7 @@ public class AuxHelper {
                 if (operation.equals("CITY")) {
                     if (city.equals(searchvalue)) {
                         citiSet.add(name + "," + id.toUpperCase());
+
                     }
                 }
 
@@ -97,6 +98,22 @@ public class AuxHelper {
 
         }
 
+    }
+
+    public Set<String> getCitiSet() {
+        return citiSet;
+    }
+
+    public void setCitiSet(Set<String> citiSet) {
+        this.citiSet = citiSet;
+    }
+
+    public Set<String> getIdSet() {
+        return idSet;
+    }
+
+    public void setIdSet(Set<String> idSet) {
+        this.idSet = idSet;
     }
 
 }
