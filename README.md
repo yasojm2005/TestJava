@@ -20,11 +20,11 @@ D Taylor Matthews ; LISBOA ; 58202263-G
 #### Commands Supported
 
 ```
-1. java -jar application.jar {FILE} CITY {CITY_NAME} 
+1. java -jar AplicationMain.jar {FILE} CITY {CITY_NAME}
 ``` 
  → Will print the list of names and ID's belonging to people that have been in that city
 ```
-2. java -jar application.jar {FILE} ID {ID_VALUE} (ID format example for input: 12345678Z)
+2. java -jar AplicationMain.jar {FILE} ID {ID_VALUE} (ID format example for input: 12345678Z)
    ``` 
    → Will print the list of cities that this person has been to.
 
@@ -32,7 +32,7 @@ D Taylor Matthews ; LISBOA ; 58202263-G
 
 #### Output examples
 
-1. java -jar application.jar input.txt CITY CARTAGENA must output an unordered unrepeated list of people and IDs that have been to CARTAGENA.
+1. java -jar AplicationMain.jar input.txt CITY CARTAGENA must output an unordered unrepeated list of people and IDs that have been to CARTAGENA.
 ```
 Mitchell Newton,25384390A
 Rhonda Hopkins,54315871Z
@@ -41,7 +41,7 @@ Susan Holland,04810023X
 Jake Salazar,38399984N
 ```
 
-2. java -jar application.jar ID 54808168L must output an unordered unrepeated list of cities that Shelley Payne have been to.
+2. java -jar AplicationMain.jar ID 54808168L must output an unordered unrepeated list of cities that Shelley Payne have been to.
 ```
 MADRID
 BARCELONA
@@ -70,7 +70,7 @@ mvn dependency:resolve
 ```
 - Compile using 
 ``` 
-javac {path for application.java} 
+javac {path for AplicationMain.java}
 ```
 and run any of the supported commands without *-jar* flag.
 
