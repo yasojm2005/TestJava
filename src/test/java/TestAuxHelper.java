@@ -16,11 +16,13 @@ public class TestAuxHelper {
         auxHelper = mock(AuxHelper.class);
     }
 
+    /**
+     *
+     */
     @Test
-    public void testAuxHelper() {
+    public void Test() {
 
         auxHelper.linesearch('1', "D Lucy Mcgee,LONDON,51011156P", "CITY", "LONDON");
-
 
 
 
